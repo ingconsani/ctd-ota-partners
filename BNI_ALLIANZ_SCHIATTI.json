@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "partner_id": "BNI_ALLIANZ_SCHIATTI",
+  "nodes": [
+    {
+      "id": "BNI_NODE_01",
+      "parent_id": "ROOT",
+      "title_it": "Sonda Overlay Assicurativo (OTA)"
+    }
+  ]
+}
