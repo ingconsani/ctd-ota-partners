@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "partner_id": "T_P_JOURNEY",
+  "nodes": [
+    {
+      "id": "TPJ_NODE_01",
+      "parent_id": "ROOT",
+      "title_it": "Sonda Audit Fiscale (OTA)"
+    }
+  ]
+}
