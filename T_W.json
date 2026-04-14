@@ -1,0 +1,20 @@
+{
+  "framework_id": "T_W",
+  "version": "1.0.0",
+  "last_updated": "2026-04-14T16:00:00Z",
+  "metadata": {
+    "name": "Talento@work",
+    "description": "Come mettere al lavoro il Talento"
+  },
+  "nodes": [
+    {
+      "id": "TW_NODE_01",
+      "parent_id": "ROOT", 
+      "title_it": "Mappatura dei Talenti Latenti",
+      "summary_it": "Analisi delle competenze non espresse del team.",
+      "type": "BUSINESS",
+      "partner_id": "T_W",
+      "sort_order": 99
+    }
+  ]
+}
