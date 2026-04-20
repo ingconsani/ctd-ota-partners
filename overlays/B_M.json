@@ -2,68 +2,20 @@
   "partner_info": {
     "partner_id": "B_M",
     "partner_name": "Studio Bellotti & Maspero",
-    "description": "Consulenza Direzionale e Strategia Finanziaria. Proteggiamo la tua cassa, guidiamo la tua crescita.",
-    "icon_data": "diamond",
-    "version": "1.1.0"
+    "version": "1.4.0"
   },
   "graph_visibility": {
     "mode": "WHITELIST",
     "active_nodes": [
-      "B_FINANCE",
-      "B_MISSION",
-      "B_VISION",
-      "P_BRAIN"
+      "B_FINANCE"
     ]
   },
   "custom_nodes_overlay": {
     "B_FINANCE": {
-      "sme_framework_name": "Governance Finanziaria B&M",
-      "description_it": "Il sistema circolatorio: cassa, margini e sostenibilità. Analisi del margine reale di contribuzione e gestione proattiva della liquidità.",
-      "roi_rationale_it": "Identificazione dei prodotti/servizi in perdita e ottimizzazione del cash flow a 6 mesi.",
-      "custom_probes": {
-        "bm_fin_d1": {
-          "text_it": "Conoscete il margine reale di contribuzione per ogni prodotto/servizio che vendete?",
-          "options": [
-            {"text": "Sì, analizziamo regolarmente i costi diretti e indiretti allocati.", "value": 1.0},
-            {"text": "Abbiamo un'idea dei ricarichi standard, ma non controlliamo a consuntivo.", "value": 0.33},
-            {"text": "Totalmente ciechi: guardiamo solo il fatturato totale a fine mese.", "value": 0.0},
-            {"text": "Altro (specificare nelle note)", "value": 0.0}
-          ],
-          "note": ""
-        },
-        "bm_fin_d2": {
-          "text_it": "Avete un previsionale di cassa (Cash Flow) per i prossimi 6 mesi?",
-          "options": [
-            {"text": "Cash flow dinamico aggiornato mensilmente: zero sorprese.", "value": 1.0},
-            {"text": "Guardiamo a 30-60 giorni, oltre è nebuloso.", "value": 0.5},
-            {"text": "Nessun previsionale: speriamo che entrino i bonifici.", "value": 0.0}
-          ],
-          "note": ""
-        }
-      }
-    },
-    "B_MISSION": {
-      "sme_framework_name": "Riallineamento Strategico",
-      "description_it": "Definizione della proposta di valore e del posizionamento differenziante per uscire dalla guerra del prezzo.",
-      "custom_probes": {
-        "bm_miss_d1": {
-          "text_it": "La vostra proposta di valore è percepita come unica dal mercato?",
-          "options": [
-            {"text": "Sì, siamo leader di nicchia riconosciuti.", "value": 1.0},
-            {"text": "Siamo scelti spesso per la qualità, ma il prezzo è ancora un tema.", "value": 0.5},
-            {"text": "Veniamo scelti quasi solo per il prezzo più basso.", "value": 0.0}
-          ],
-          "note": ""
-        }
-      }
-    }
-  },
-  "feedback_logic": {
-    "L3": {
-      "1.0": "Eccellenza: Money-talk immediato. La gestione è trasparente e orientata al profitto.",
-      "0.66": "Buona gestione: selezione attiva del cliente e dei margini.",
-      "0.33": "Gestione parziale: si parla di soldi troppo tardi o con imbarazzo.",
-      "0.0": "Pessima gestione: omertà finanziaria o cecità sui dati."
+      "custom_probes_raw": "? DP1: [Nella tua azienda esiste una politica di richiesta di pagamenti/acconti anticipati al fine di ridurre il ricorso al finanziamento di terzi ? ]\n - [sì esiste una corretta politica di gestione degli incassi relativi ad acconti] RP1.1 (Valore 0.0)\n - [siamo consapevoli della necessità ma non sempre siamo in grado di applicarla nei confronti della clientela ] RP1.2 (Valore 0.33)\n - [viene applicata saltuariamente solo su commesse ritenute considerevoli e/o di importo superiore a X] RP1.3 (Valore 0.66)\n - [non viene applicata] RP1.4 (Valore 1.0)\n\n? DP2: [Nella tua azienda esiste una politica di gestione delle tempistiche dei pagamenti al fine di ridurre il ricorso al finanziamento di terzi ? ]\n - [sì esiste una corretta politica di gestione dei pagamenti ] RP2.1 (Valore 0.0)\n - [siamo consapevoli della necessità ma non sempre abbiamo la forza contrattuale] RP2.2 (Valore 0.33)\n - [viene applicata saltuariamente solo su pagamenti significativi ] RP2.3 (Valore 0.66)\n - [Altro] RP2.4 (Valore 1.0)\n\n? DP3: [Nel caso di situazione di sovra esposizione finanziaria state adottando delle politiche per risolverla ?]\n - [Sì stiamo adottando dei correttivi per migliorare la posizione] RP3.1 (Valore 0.0)\n - [Non avendo la forza contrattuale siamo costretti a subire la situazione ] RP3.2 (Valore 0.33)\n - [Altro] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
+      "gancio_podcast": "[Qual è l'errore fatale o il problema che vedi sempre qui?] Continui a rinviare il problema senza mai affrontarlo concretamente",
+      "soluzione_partner": "[1. Soluzione A Predisposizione di budget di cassa\n2. Soluzione B Verifica della criticita se relativa ad alcuni periodi dell'anno o se invece riguarda l'intero periodo\n3. Soluzione C] Definizione di una politica di azione che tenga conto congiuntamente delle tre strategie",
+      "aneddoto_reale": "[Racconta quella volta che con un cliente...]"
     }
   }
 }
