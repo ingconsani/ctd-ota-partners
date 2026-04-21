@@ -2,7 +2,7 @@
   "partner_info": {
     "partner_id": "B_M",
     "partner_name": "Studio Bellotti & Maspero",
-    "version": "2.5.0"
+    "version": "2.6.0"
   },
   "graph_visibility": {
     "mode": "WHITELIST",
@@ -33,114 +33,6 @@
       "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Nella tua azienda esiste una politica di richiesta di pagamenti/acconti anticipati al fine di ridurre il ricorso al finanziamento di terzi ? ]\n - [sì esiste una corretta politica di gestione degli incassi relativi ad acconti] RP1.1 (Valore 0.0)\n - [siamo consapevoli della necessità ma non sempre siamo in grado di applicarla nei confronti della clientela ] RP1.2 (Valore 0.33)\n - [viene applicata saltuariamente solo su commesse ritenute considerevoli e/o di importo superiore a X] RP1.3 (Valore 0.66)\n - [non viene applicata] RP1.4 (Valore 1.0)\n\n? DP2: [Nella tua azienda esiste una politica di gestione delle tempistiche dei pagamenti al fine di ridurre il ricorso al finanziamento di terzi ? ]\n - [sì esiste una corretta politica di gestione dei pagamenti ] RP2.1 (Valore 0.0)\n - [siamo consapevoli della necessità ma non sempre abbiamo la forza contrattuale] RP2.2 (Valore 0.33)\n - [viene applicata saltuariamente solo su pagamenti significativi ] RP2.3 (Valore 0.66)\n - [Altro] RP2.4 (Valore 1.0)\n\n? DP3: [Nel caso di situazione di sovra esposizione finanziaria state adottando delle politiche per risolverla ?]\n - [Sì stiamo adottando dei correttivi per migliorare la posizione] RP3.1 (Valore 0.0)\n - [Non avendo la forza contrattuale siamo costretti a subire la situazione ] RP3.2 (Valore 0.33)\n - [Altro] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
       "gancio_podcast": "[Qual è l'errore fatale o il problema che vedi sempre qui?] Continui a rinviare il problema senza mai affrontarlo concretamente",
       "soluzione_partner": "[1. Soluzione A Predisposizione di budget di cassa\n2. Soluzione B Verifica della criticita se relativa ad alcuni periodi dell'anno o se invece riguarda l'intero periodo\n3. Soluzione C] Definizione di una politica di azione che tenga conto congiuntamente delle tre strategie",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CORP": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CTRL": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_TAX": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_TREASURY": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CORP_CAPEX": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CORP_FUND": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CORP_VAL": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CTRL_ADMIN": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CTRL_BEP": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CTRL_PNL": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_CTRL_UNIT": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_TAX_PLAN": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_TAX_STRUCT": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_TAX_WELFARE": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_TREASURY_BANK": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_TREASURY_CREDIT": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FINANCE_TREASURY_FORECAST": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
-      "aneddoto_reale": ""
-    },
-    "B_FIN_CORP_CAPEX_CALC": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? DP1: [Inserisci Domanda 1]\n - [] RP1.1 (Valore 0.0)\n - [] RP1.2 (Valore 0.33)\n - [] RP1.3 (Valore 0.66)\n - [] RP1.4 (Valore 1.0)\n\n? DP2: [Inserisci Domanda 2]\n - [] RP2.1 (Valore 0.0)\n - [] RP2.2 (Valore 0.33)\n - [] RP2.3 (Valore 0.66)\n - [] RP2.4 (Valore 1.0)\n\n? DP3: [Inserisci Domanda 3]\n - [] RP3.1 (Valore 0.0)\n - [] RP3.2 (Valore 0.33)\n - [] RP3.3 (Valore 0.66)\n - [] RP3.4 (Valore 1.0)",
-      "gancio_podcast": "",
-      "soluzione_partner": "",
       "aneddoto_reale": ""
     }
   }
