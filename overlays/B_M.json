@@ -2,7 +2,7 @@
   "partner_info": {
     "partner_id": "B_M",
     "partner_name": "Studio Bellotti & Maspero",
-    "version": "2.6.0"
+    "version": "2.7.0"
   },
   "graph_visibility": {
     "mode": "WHITELIST",
@@ -30,10 +30,73 @@
   },
   "custom_nodes_overlay": {
     "B_FINANCE": {
-      "custom_probes_raw": "--- OVERRIDE DOMANDE CtD ESISTENTI ---\n[1.0, 1.0]\n\n? D1: Nella tua azienda esiste una politica di richiesta di pagamenti/acconti anticipati al fine di ridurre il ricorso al finanziamento di terzi?\n - [] Sì, esiste una corretta politica di gestione degli incassi relativi ad acconti\n - [] Siamo consapevoli della necessità ma non sempre siamo in grado di applicarla nei confronti della clientela\n - [] Viene applicata saltuariamente solo su commesse ritenute considerevoli e/o di importo superiore a X\n - [] Non viene applicata\n\n? D2: Nella tua azienda esiste una politica di gestione delle tempistiche dei pagamenti al fine di ridurre il ricorso al finanziamento di terzi?\n - [] Sì, esiste una corretta politica di gestione dei pagamenti\n - [] Siamo consapevoli della necessità ma non sempre abbiamo la forza contrattuale\n - [] Viene applicata saltuariamente solo su pagamenti significativi\n - [] Altro (con raccomandazione di specificare nelle note)\n\n? D3: Nel caso di situazione di sovra esposizione finanziaria state adottando delle politiche per risolverla?\n - [] Sì, stiamo adottando dei correttivi per migliorare la posizione\n - [] Non avendo la forza contrattuale siamo costretti a subire la situazione\n - [] Altro (con raccomandazione di specificare nelle note)\n - [] Nessuna politica adottata",
-      "gancio_podcast": "[Qual è l'errore fatale o il problema che vedi sempre qui?] Continui a rinviare il problema senza mai affrontarlo concretamente",
-      "soluzione_partner": "[1. Soluzione A Predisposizione di budget di cassa\n2. Soluzione B Verifica della criticita se relativa ad alcuni periodi dell'anno o se invece riguarda l'intero periodo\n3. Soluzione C] Definizione di una politica di azione che tenga conto congiuntamente delle tre strategie",
-      "aneddoto_reale": ""
+      "custom_probes": {
+        "D1": {
+          "text_it": "Nella tua azienda esiste una politica di richiesta di pagamenti/acconti anticipati al fine di ridurre il ricorso al finanziamento di terzi?",
+          "options": [
+            {
+              "text": "Sì, esiste una corretta politica di gestione degli incassi relativi ad acconti",
+              "value": 1
+            },
+            {
+              "text": "Siamo consapevoli della necessità ma non sempre siamo in grado di applicarla nei confronti della clientela",
+              "value": 0.66
+            },
+            {
+              "text": "Viene applicata saltuariamente solo su commesse ritenute considerevoli e/o di importo superiore a X",
+              "value": 0.33
+            },
+            {
+              "text": "Non viene applicata",
+              "value": 0
+            }
+          ]
+        },
+        "D2": {
+          "text_it": "Nella tua azienda esiste una politica di gestione delle tempistiche dei pagamenti al fine di ridurre il ricorso al finanziamento di terzi?",
+          "options": [
+            {
+              "text": "Sì, esiste una corretta politica di gestione dei pagamenti",
+              "value": 1
+            },
+            {
+              "text": "Siamo consapevoli della necessità ma non sempre abbiamo la forza contrattuale",
+              "value": 0.66
+            },
+            {
+              "text": "Viene applicata saltuariamente solo su pagamenti significativi",
+              "value": 0.33
+            },
+            {
+              "text": "Altro (con raccomandazione di specificare nelle note)",
+              "value": 0
+            }
+          ]
+        },
+        "D3": {
+          "text_it": "Nel caso di situazione di sovra esposizione finanziaria state adottando delle politiche per risolverla?",
+          "options": [
+            {
+              "text": "Sì, stiamo adottando dei correttivi per migliorare la posizione",
+              "value": 1
+            },
+            {
+              "text": "Non avendo la forza contrattuale siamo costretti a subire la situazione",
+              "value": 0.66
+            },
+            {
+              "text": "Altro (con raccomandazione di specificare nelle note)",
+              "value": 0
+            },
+            {
+              "text": "Nessuna politica adottata",
+              "value": 0
+            }
+          ]
+        }
+      },
+      "gancio_podcast": "Continui a rinviare il problema senza mai affrontarlo concretamente",
+      "soluzione_partner": "[1. Soluzione A Predisposizione di budget di cassa\n2. Soluzione B Verifica della criticita se relativa ad alcuni periodi dell'anno o se invece riguarda l'intero periodo\n3. Soluzione C] Definizione di una politica di azione che tenga conto congiuntamente delle tre strategie"
     }
   }
 }
