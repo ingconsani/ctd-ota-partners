@@ -1,18 +1,14 @@
 {
-  "partner_id": "B_M",
-  "export_timestamp": "2026-05-10T15:00:00.000Z",
-  "lens_config": {
-    "partner_info": {
-      "partner_id": "B_M",
-      "partner_name": "Studio Bellotti & Maspero",
-      "version": "2.7.0"
-    },
-    "graph_visibility": {
-      "mode": "WHITELIST",
-      "active_nodes": [
-        "B_FINANCE", "B_FINANCE_CORP", "B_FINANCE_CTRL", "B_FINANCE_TAX", "B_FINANCE_TREASURY", "B_FINANCE_CORP_CAPEX", "B_FINANCE_CORP_FUND", "B_FINANCE_CORP_VAL", "B_FINANCE_CTRL_ADMIN", "B_FINANCE_CTRL_BEP", "B_FINANCE_CTRL_PNL", "B_FINANCE_CTRL_UNIT", "B_FINANCE_TAX_PLAN", "B_FINANCE_TAX_STRUCT", "B_FINANCE_TAX_WELFARE", "B_FINANCE_TREASURY_BANK", "B_FINANCE_TREASURY_CREDIT", "B_FINANCE_TREASURY_FORECAST", "B_FIN_CORP_CAPEX_CALC"
-      ]
-    }
+  "partner_info": {
+    "partner_id": "B_M",
+    "partner_name": "Studio Bellotti & Maspero",
+    "version": "2.7.0"
+  },
+  "graph_visibility": {
+    "mode": "WHITELIST",
+    "active_nodes": [
+      "B_FINANCE", "B_FINANCE_CORP", "B_FINANCE_CTRL", "B_FINANCE_TAX", "B_FINANCE_TREASURY", "B_FINANCE_CORP_CAPEX", "B_FINANCE_CORP_FUND", "B_FINANCE_CORP_VAL", "B_FINANCE_CTRL_ADMIN", "B_FINANCE_CTRL_BEP", "B_FINANCE_CTRL_PNL", "B_FINANCE_CTRL_UNIT", "B_FINANCE_TAX_PLAN", "B_FINANCE_TAX_STRUCT", "B_FINANCE_TAX_WELFARE", "B_FINANCE_TREASURY_BANK", "B_FINANCE_TREASURY_CREDIT", "B_FINANCE_TREASURY_FORECAST", "B_FIN_CORP_CAPEX_CALC"
+    ]
   },
   "blueprints": [
     {
@@ -53,10 +49,5 @@
         }
       ]
     }
-  ],
-  "companies": [],
-  "projects": [],
-  "users": [],
-  "scenarios": [],
-  "tokens": []
+  ]
 }
