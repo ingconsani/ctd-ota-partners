@@ -1,0 +1,32 @@
+name: Compilazione CtD per Windows
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout del codice sorgente
+      uses: actions/checkout@v4
+
+    - name: Setup di Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        channel: 'stable'
+
+    - name: Installazione Dipendenze
+      run: flutter pub get
+
+    - name: Abilita Windows Desktop
+      run: flutter config --enable-windows-desktop
+
+    - name: Compilazione Eseguibile Windows
+      run: flutter build windows
+
+    - name: Upload pacchetto finale
+      uses: actions/upload-artifact@v4
+      with:
+        name: ctd_shell_v8_windows
+        path: build\windows\x64\runner\Release
